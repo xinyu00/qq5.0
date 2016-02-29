@@ -1,0 +1,50 @@
+<com.example.effects.view.SwipeView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/swipeview"
+    tools:context=".DragLayoutActivity" >
+
+    <!-- 按钮 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#888888"
+            android:padding="10dp"
+            android:text="呼叫"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f00"
+            android:padding="10dp"
+            android:text="删除"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- 好友信息 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#8ff0"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="吕布"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</com.example.effects.view.SwipeView>
